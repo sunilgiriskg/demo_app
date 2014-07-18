@@ -20,3 +20,4 @@ def secure_token
 end
 
 SApp::Application.config.secret_key_base = secure_token
+SApp::Application.config.secret_token = secure_token
